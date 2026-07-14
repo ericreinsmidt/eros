@@ -1,0 +1,17 @@
+build/
+out/
+vendor/
+.DS_Store
+minarch/build-tmp/
+build-native/
+
+# demo recordings / exports (not source)
+IMG_*.mov
+*-reddit*.mp4
+/EROS.mp4
+/res/logo/EROS-boot-anim.mp4
+/res/logo/demo.mov
+/res/logo/eros_demo.mp4
+
+# full-res icon masters (working files, not shipped)
+/res/icons full size/
