@@ -5,6 +5,7 @@
 _A love letter to minimalism._
 
 <a href="releases/latest"><img alt="Download EROS" src="https://img.shields.io/badge/Download-latest%20release-e11d2a?style=for-the-badge&labelColor=141417&logoColor=white"></a>
+<a href="releases/latest"><img alt="Downloads" src="https://img.shields.io/github/downloads/ericreinsmidt/eros/total?style=for-the-badge&labelColor=141417&color=e11d2a"></a>
 
 </div>
 

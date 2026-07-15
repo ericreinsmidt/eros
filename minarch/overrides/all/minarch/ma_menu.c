@@ -176,7 +176,7 @@ void MSG_quit(void) {
 
 ///////////////////////////////////////
 
-#define MENU_ITEM_COUNT 5
+#define MENU_ITEM_COUNT 6
 #define MENU_SLOT_COUNT 8
 
 enum {
@@ -184,6 +184,7 @@ enum {
 	ITEM_SAVE,
 	ITEM_LOAD,
 	ITEM_OPTS,
+	ITEM_RESET,
 	ITEM_QUIT,
 };
 
@@ -225,6 +226,7 @@ static struct {
 		[ITEM_SAVE] = "Save",
 		[ITEM_LOAD] = "Load",
 		[ITEM_OPTS] = "Options",
+		[ITEM_RESET] = "Reset",
 		[ITEM_QUIT] = "Quit",
 	}
 };
@@ -1866,6 +1868,15 @@ void Menu_loop(void) {
 						dirty = 1;
 					}
 				}
+				break;
+				case ITEM_RESET:
+					// EROS: restart the running game (libretro retro_reset). Doesn't
+					// touch save states -- just reboots the core in place, then closes
+					// the menu back to the game. Stock minarch only exposed this via
+					// "simple mode" (which replaced Options); EROS gives it its own row.
+					core.reset();
+					status = STATUS_RESET;
+					show_menu = 0;
 				break;
 				case ITEM_QUIT:
 					// EROS: auto-save to the resume slot (9) so relaunching the
