@@ -26,11 +26,34 @@ Turn it on. Play.
 - **Cover Flow launcher:** a single perspective-tilted row with reflections.
   Pick a system, drill into its games, pick a game - it launches [minarch] with
   the right core and auto-resumes where you left off.
+
+<details>
+<summary>See browsing systems</summary>
+
+<div align="center"><img src="docs/eros-systems.webp" width="600"></div>
+
+</details>
+
+<details>
+<summary>See drilling into a system's games</summary>
+
+<div align="center"><img src="docs/eros-games.webp" width="600"></div>
+
+</details>
+
 - **Muse:** a built-in music player that slots in as a card. Browse albums as
   a Cover Flow, drill into tracks, focused now-playing screen. Playback runs in
   a small daemon, so the music keeps playing while you close the app and browse -
   and right on into a game: start one while music's playing and it launches
   silent, so the music carries straight through.
+
+<details>
+<summary>See Muse - albums, now playing, modes</summary>
+
+<div align="center"><img src="docs/eros-muse.webp" width="600"></div>
+
+</details>
+
 - **Made to disappear:** a dark monochrome in-game menu - the one bit of chrome
   is a low-battery dot. It's meant to feel like hardware, not software.
 
