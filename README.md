@@ -4,8 +4,8 @@
 
 _A love letter to minimalism._
 
-<a href="releases/latest"><img alt="Download EROS" src="https://img.shields.io/badge/Download-latest%20release-e11d2a?style=for-the-badge&labelColor=141417&logoColor=white"></a>
-<a href="releases/latest"><img alt="Downloads" src="https://img.shields.io/github/downloads/ericreinsmidt/eros/total?style=for-the-badge&labelColor=141417&color=e11d2a"></a>
+<a href="https://github.com/ericreinsmidt/eros/releases/latest"><img alt="Download EROS" src="https://img.shields.io/badge/Download-latest%20release-e11d2a?style=for-the-badge&labelColor=141417&logoColor=white"></a>
+<a href="https://github.com/ericreinsmidt/eros/releases/latest"><img alt="Downloads" src="https://img.shields.io/github/downloads/ericreinsmidt/eros/total?style=for-the-badge&labelColor=141417&color=e11d2a"></a>
 
 </div>
 
@@ -29,7 +29,8 @@ Turn it on. Play.
 - **Muse:** a built-in music player that slots in as a card. Browse albums as
   a Cover Flow, drill into tracks, focused now-playing screen. Playback runs in
   a small daemon, so the music keeps playing while you close the app and browse -
-  even out to the game shelf.
+  and right on into a game: start one while music's playing and it launches
+  silent, so the music carries straight through.
 - **Made to disappear:** a dark monochrome in-game menu - the one bit of chrome
   is a low-battery dot. It's meant to feel like hardware, not software.
 
